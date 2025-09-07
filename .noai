@@ -7,14 +7,31 @@
 
 ## from a human perspective:
 * if you aren't the *one writing the code,* you *don't understand it*
-having written and edited plenty of code myself, the issue with the genAI code I've encountered is *no one can tell me how it works* - this means no one can debug it, improve on it, etc 
+having written and edited plenty of code myself, the issue with the genAI code 
+I've encountered is *no one can tell me how it works* - this means no one can 
+debug it, improve on it, etc 
 
 ## from a technical perspective
-* genAI doesn't understand anything it does - it's purely statistical, which means that it can only *approximate what good code looks like,* rather than build using *underlying logic*
-AI code tools/generation work best for high level languages like Python, where statistical mishmash will work since interperers do all the work for you. Since we are working in a lower level language - Rust - that notably shifts logical, compile-time errors into logical errors, *__genAI will struggle to produce anything at all__*. This is especially prevalent because there aren't general solutions. logic for specific problems is explicit and scarce.
+* genAI doesn't understand anything it does - it's purely statistical, which 
+means that it can only *approximate what good code looks like,* rather than 
+build using *underlying logic*
+AI code tools/generation work best for high level languages like Python, where 
+statistical mishmash will work since interperers do all the work for you. Since 
+we are working in a lower level language - Rust - that notably shifts logical, 
+compile-time errors into logical errors, *__genAI will struggle to produce anything at all__*. 
+This is especially prevalent because there aren't general solutions. logic for 
+specific problems is explicit and scarce.
 
 ## from a legal/licensing perspective
-* I don't want an open source project to get bogged down in legal issues because an AI stole code from a public repo without proper attribution - this is a constant problem nowadays.
+* I don't want an open source project to get bogged down in legal issues because 
+an AI stole code from a public repo without proper attribution - this is a 
+constant problem nowadays.
 
-This is not going to be enforced unless something becomes a *serious, reoccuring issue.* it's mostly about code ownership, readability, and respecting other devs' time - the goal is to create a productive environment where people have readable, original/attributed code.
-It is difficult to draw a line if someone uses genAI to create an initial idea and then rewrites nearly the entire thing in the process of fixing the output. We don't want contributors fleeing due to overzealous enforcement, admins splitting hairs over AI code, or devs losing sleep fixing fuckups.
+This is not going to be enforced unless something becomes a *serious, reoccuring 
+issue.* it's mostly about code ownership, readability, and respecting other devs' 
+time - the goal is to create a productive environment where people have readable, 
+original/attributed code.
+It is difficult to draw a line if someone uses genAI to create an initial idea and 
+then rewrites nearly the entire thing in the process of fixing the output. We don't 
+want contributors fleeing due to overzealous enforcement, admins splitting hairs 
+over AI code, or devs losing sleep fixing fuckups.
